@@ -1,0 +1,28 @@
+|control_tiempo
+reset_A => reg_fstate.Parar.OUTPUTSELECT
+reset_A => reg_fstate.vuelta_0.OUTPUTSELECT
+reset_A => reg_fstate.marcha.OUTPUTSELECT
+reset_A => reg_fstate.vuelta_1.OUTPUTSELECT
+reset_A => reg_fstate.vuelta_2.OUTPUTSELECT
+reset_A => reg_fstate.vuelta_3.OUTPUTSELECT
+reset_A => reg_stop_and_go.OUTPUTSELECT
+reset_A => reg_Resultado.OUTPUTSELECT
+reset_A => stop_and_go.OUTPUTSELECT
+reset_A => Resultado.OUTPUTSELECT
+reset_A => contador.OUTPUTSELECT
+clock => fstate~1.DATAIN
+S => process_1.IN0
+S => reg_fstate.DATAA
+S => process_1.IN0
+S => reg_fstate.DATAA
+R2 => reg_fstate.DATAA
+R2 => Selector2.IN3
+R2 => Selector0.IN0
+R2 => process_1.IN1
+R2 => process_1.IN1
+R2 => reg_fstate.DATAA
+stop_and_go <= stop_and_go.DB_MAX_OUTPUT_PORT_TYPE
+Resultado <= Resultado.DB_MAX_OUTPUT_PORT_TYPE
+contador <= contador.DB_MAX_OUTPUT_PORT_TYPE
+
+

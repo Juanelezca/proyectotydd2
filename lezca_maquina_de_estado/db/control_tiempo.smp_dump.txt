@@ -1,0 +1,9 @@
+
+State Machine - |control_tiempo|fstate
+Name fstate.vuelta_3 fstate.vuelta_2 fstate.vuelta_1 fstate.marcha fstate.vuelta_0 fstate.Parar 
+fstate.Parar 0 0 0 0 0 0 
+fstate.vuelta_0 0 0 0 0 1 1 
+fstate.marcha 0 0 0 1 0 1 
+fstate.vuelta_1 0 0 1 0 0 1 
+fstate.vuelta_2 0 1 0 0 0 1 
+fstate.vuelta_3 1 0 0 0 0 1 

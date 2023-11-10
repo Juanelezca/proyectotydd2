@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\lezca_maquina_de_estado\simulation\qsim
+vcontrol_tiempo
+Z1 !s100 >0GYGADEJ538Uz<10l0H_0
+Z2 IoZQMWgI0dGM?;CR5Qzg2@1
+Z3 V<`4Uf5J;dZUK2@LRNHFWZ1
+Z4 dC:\altera\13.0sp1\lezca_maquina_de_estado\simulation\qsim
+Z5 w1699300153
+Z6 8control_tiempo.vo
+Z7 Fcontrol_tiempo.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|control_tiempo.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1699300154.409000
+Z12 !s107 control_tiempo.vo|
+!s101 -O0
+vcontrol_tiempo_vlg_check_tst
+!i10b 1
+!s100 fCebbMT92:?eEA;2PPhWV0
+I4EGZHXOmYJI[X3?PN2Zz`0
+Z13 V`=j5Hzk[5Lk9XMH]OSEGT0
+R4
+Z14 w1699300151
+Z15 8control_tiempo.vt
+Z16 Fcontrol_tiempo.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z17 !s108 1699300154.520000
+Z18 !s107 control_tiempo.vt|
+Z19 !s90 -work|work|control_tiempo.vt|
+!s101 -O0
+R10
+vcontrol_tiempo_vlg_sample_tst
+!i10b 1
+Z20 !s100 TT5a9LjSHJWecZiSHS^HN3
+Z21 IHASg:?z?W?dmo3?7K>WP33
+Z22 V0XJ<MDac@[eCXcn6?oGci3
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vcontrol_tiempo_vlg_vec_tst
+!i10b 1
+Z23 !s100 3kEXje:[7eN>E=0VdogX@0
+Z24 I0^8kMiAjn;keH?<54ReJV0
+Z25 VOdRQkMVJPY<U>DBmL47_J0
+R4
+R14
+R15
+R16
+Z26 L0 212
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
